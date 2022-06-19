@@ -1,0 +1,134 @@
+.SearchPage__header {
+    display: flex;
+    position:sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    align-items: flex-start;
+    padding: 18px;
+    border-bottom: 1px solid lightgray;
+    margin-top: 12px;
+
+}
+
+
+.searchPage__logo {
+    object-fit: contain;
+    height: 40px;
+    margin-right: 50px;
+    
+
+
+}
+
+.SearchPage__headerBody > .search >
+.search__input {
+    border: 1px solid gray;
+    margin-top: 0;
+    width: unset;
+    margin: unset;
+    max-width: unset;
+
+}
+
+.SearchPage__headerBody > .search > .search__input:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+    width: unset;
+    margin: unset;
+    max-width: unset;
+}
+
+
+
+.searchPage__options {
+    display: flex;
+    align-items:center ;
+    color: grey;
+    margin-top: 10px;
+    
+    
+
+}
+
+.searchPage__optionsRight a, .searchPage__optionsLeft a {
+    text-decoration: none;
+    color: gray;
+    
+}
+
+.searchPage__optionsRight, .searchPage__optionsLeft {
+    display: flex;
+    margin-top: 5px;
+}
+
+.searchPage__optionsRight {
+    margin-left: 80px;
+}
+
+.searchPage__option {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.searchPage__option a {
+    margin-left: 5px;
+}
+
+.searchPage__result {
+    margin: 40px 0 ;
+    text-align: start;
+    font-size: 14px;
+    
+    
+}
+
+.searchPage__resultCount {
+    color: #70757a;
+    font-size: 14px;
+    text-align: start;
+}
+
+.searchPage__results {
+    max-width: 650px;
+    margin-top: 20px;
+    margin-left: 240px;
+    margin-bottom: 100px;
+    text-align: start;
+    
+}
+
+.searchPage__resultImage {
+    object-fit: contain;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    
+    
+    
+}
+
+.searchPage__resultTitle {
+    text-decoration: none;
+    font-size: 13px;
+    
+
+    
+}
+
+.searchPage__resultTitle:hover {
+    text-decoration: underline;
+}
+
+.searchPage__resultTitle > h2 {
+    font-weight: 500;
+}
+
+.searchPage__resultSnippet {
+    text-decoration: none;
+    margin-top: -10px;
+
+}
+
+
